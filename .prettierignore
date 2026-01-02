@@ -1,0 +1,18 @@
+# Ignore build artifacts and generated files
+# node_modules and build artifacts
+node_modules
+*.log
+
+# environment files
+.env
+.env.local
+.env.*
+ 
+# TypeScript build output
+dist/
+build/
+
+# Logs
+*.log
+*.log.*
+              
