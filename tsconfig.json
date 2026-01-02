@@ -1,5 +1,6 @@
 {
     // Visit https://aka.ms/tsconfig to read more about this file
+    
     "compilerOptions": {
         // File Layout
         "rootDir": "./src",
@@ -40,5 +41,10 @@
         "noUncheckedSideEffectImports": true,
         "moduleDetection": "force",
         "skipLibCheck": true
-    }
+    },
+    "include": ["src"],
+    "exclude": [
+    "node_modules",
+    "eslint.config.mts"
+  ]
 }
