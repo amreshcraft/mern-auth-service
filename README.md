@@ -1,11 +1,13 @@
 
 ## Node Version Manager
 
+`.nvmrc` - node version manager runtime configuration.
+
 ```sh
 touch .nvmrc
 ```
 
-List NVM Vresion
+List nvm Vresion
 ```sh
 nvm ls
 ```
@@ -18,3 +20,4 @@ if node of specified in `.nvmrc` version is not installed then use
 ```sh
 nvm install
 ```
+
