@@ -7,7 +7,9 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
         "format:fix": "prettier . --write",
-        "format:check": "prettier . --check"
+        "format:check": "prettier . --check",
+        "lint:fix": "eslint . --fix",
+        "lint:check": "eslint . "
     },
     "author": "Amresh Maurya amreshbinary@gmail.com",
     "license": "ISC",
