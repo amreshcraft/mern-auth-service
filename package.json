@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Amresh Maurya amreshbinary@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
 }

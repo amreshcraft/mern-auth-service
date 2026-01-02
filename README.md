@@ -21,3 +21,19 @@ if node of specified in `.nvmrc` version is not installed then use
 nvm install
 ```
 
+
+## Install typescript
+
+```sh
+npm i -D typescript
+```
+
+### TS cofig ile
+```sh
+npx tsc --init
+```
+
+## Run 
+```sh
+npx tsc
+```
