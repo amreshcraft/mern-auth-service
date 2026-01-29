@@ -13,6 +13,7 @@ export default defineConfig([
     "no-unused-vars": "warn",
     "no-console": "warn",
     "no-implicit-globals": "error",
+    "dot-notation":"error"
 
    }
 
