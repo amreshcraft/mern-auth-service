@@ -1,6 +1,6 @@
 function NameSpace(name: string) {
-return name
+    return 'heelo' + name;
 }
 NameSpace('AuthService');
 
-
+console.log('hello');
