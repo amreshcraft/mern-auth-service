@@ -1,8 +1,3 @@
-function NameSpace(name: string) {
-    return 'heelo' + name;
-}
-NameSpace('AuthService');
+import { Config } from './config/index.js';
 
-// const obj = {name:"Amresh Maurya"}
-console.log('hello');
-// console.log(obj["name"])
+console.log('PORT:', Config.PORT);
