@@ -3,4 +3,6 @@ function NameSpace(name: string) {
 }
 NameSpace('AuthService');
 
+// const obj = {name:"Amresh Maurya"}
 console.log('hello');
+// console.log(obj["name"])

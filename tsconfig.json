@@ -1,6 +1,6 @@
 {
     // Visit https://aka.ms/tsconfig to read more about this file
-    
+
     "compilerOptions": {
         // File Layout
         "rootDir": "./src",
@@ -43,8 +43,5 @@
         "skipLibCheck": true
     },
     "include": ["src"],
-    "exclude": [
-    "node_modules",
-    "eslint.config.mts"
-  ]
+    "exclude": ["node_modules", "eslint.config.mts"]
 }
