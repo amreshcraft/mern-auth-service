@@ -2,14 +2,14 @@ import type { NextFunction, Request, Response } from 'express';
 import express from 'express';
 
 import type { HttpError } from 'http-errors';
-import createHttpError from 'http-errors';
+// import createHttpError from 'http-errors';
 
 const app = express();
 
-app.get('/', async (_req, res, next) => {
-    const err = createHttpError(500, 'Something went wrong');
-    next(err);
-    // res.json({ message: 'Welcome to Auth Service' });
+app.get('/', async (_req, res) => {
+    // const err = createHttpError(500, 'Something went wrong');
+    // next(err);
+    res.json({ message: 'Welcome to Auth Service' });
 });
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars

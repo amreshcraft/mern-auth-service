@@ -1,5 +1,5 @@
 import winston from 'winston';
-import { Config } from './index.js';
+import { Config } from './index.ts';
 
 export const logger = winston.createLogger({
     level: 'info',
